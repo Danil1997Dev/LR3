@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/study/LR3/LR3_TOP.xst" -ofn "D:/study/LR3/LR3_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 LR3_TOP.ngc LR3_TOP.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LR3_TOP_map.ncd LR3_TOP.ngd LR3_TOP.pcf 
+par -w -intstyle ise -ol high -mt off LR3_TOP_map.ncd LR3_TOP.ncd LR3_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LR3_TOP.twx LR3_TOP.ncd -o LR3_TOP.twr LR3_TOP.pcf -ucf Nexys4_Master.ucf 
+xst -intstyle ise -ifn "D:/study/LR3/LR3_TOP.xst" -ofn "D:/study/LR3/LR3_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 LR3_TOP.ngc LR3_TOP.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LR3_TOP_map.ncd LR3_TOP.ngd LR3_TOP.pcf 
+par -w -intstyle ise -ol high -mt off LR3_TOP_map.ncd LR3_TOP.ncd LR3_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LR3_TOP.twx LR3_TOP.ncd -o LR3_TOP.twr LR3_TOP.pcf -ucf Nexys4_Master.ucf 

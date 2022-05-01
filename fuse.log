@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Geralt/Desktop/LR3/LR3_TB_isim_beh.exe -prj C:/Users/Geralt/Desktop/LR3/LR3_TB_beh.prj work.LR3_TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Geralt/Desktop/LR3/M_7SEG_DECODER_V10.v" into library work
+Analyzing Verilog file "C:/Users/Geralt/Desktop/LR3/LR3_Seq_Logic_L.v" into library work
+Analyzing Verilog file "C:/Users/Geralt/Desktop/LR3/M_Nexys4_DISP.v" into library work
+Analyzing Verilog file "C:/Users/Geralt/Desktop/LR3/LR3_Seq_Logic.v" into library work
+Analyzing Verilog file "C:/Users/Geralt/Desktop/LR3/LR3.v" into library work
+Analyzing Verilog file "C:/Users/Geralt/Desktop/LR3/LR3_TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Geralt/Desktop/LR3/LR3.v" Line 35: Port DP is not connected to this instance
+Completed static elaboration
+Compiling module LR3_Seq_Logic_L
+Compiling module LR3_Seq_Logic
+Compiling module M_7SEG_DECODER_V10
+Compiling module M_Nexys4_DISP
+Compiling module LR3
+Compiling module LR3_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/Geralt/Desktop/LR3/LR3_TB_isim_beh.exe
+Fuse Memory Usage: 31516 KB
+Fuse CPU Usage: 796 ms

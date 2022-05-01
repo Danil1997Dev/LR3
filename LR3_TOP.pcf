@@ -1,0 +1,70 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Nov 18 22:09:59 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "SW<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "CAT<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "CPU_RSTn" LOCATE = SITE "C12" LEVEL 1;
+COMP "CAT<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "CAT<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "CAT<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "CAT<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "CAT<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "CAT<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "AN<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "AN<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "AN<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "AN<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "AN<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "AN<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "AN<6>" LOCATE = SITE "L1" LEVEL 1;
+COMP "AN<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "BTN_C" LOCATE = SITE "E16" LEVEL 1;
+COMP "CLK" LOCATE = SITE "E3" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "U9" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "gce/CEO" BEL "gce/CNT_0" BEL "gce/CNT_1" BEL
+        "gce/CNT_2" BEL "gce/CNT_3" BEL "gce/CNT_4" BEL "gce/CNT_5" BEL
+        "gce/CNT_6" BEL "gce/CNT_7" BEL "gce/CNT_8" BEL "gce/CNT_9" BEL
+        "gce/CNT_10" BEL "gce/CNT_11" BEL "gce/CNT_12" BEL "gce/CNT_13" BEL
+        "gce/CNT_14" BEL "gce/CNT_15" BEL "gce/CNT_16" BEL
+        "main/seq_logic/WAIT_SEQ_15" BEL "main/seq_logic/WAIT_SEQ_14" BEL
+        "main/seq_logic/WAIT_SEQ_13" BEL "main/seq_logic/WAIT_SEQ_12" BEL
+        "main/seq_logic/WAIT_SEQ_11" BEL "main/seq_logic/WAIT_SEQ_10" BEL
+        "main/seq_logic/WAIT_SEQ_9" BEL "main/seq_logic/WAIT_SEQ_8" BEL
+        "main/seq_logic/WAIT_SEQ_7" BEL "main/seq_logic/WAIT_SEQ_6" BEL
+        "main/seq_logic/WAIT_SEQ_5" BEL "main/seq_logic/WAIT_SEQ_4" BEL
+        "main/seq_logic/WAIT_SEQ_3" BEL "main/seq_logic/WAIT_SEQ_2" BEL
+        "main/seq_logic/WAIT_SEQ_1" BEL "main/seq_logic/WAIT_SEQ_0" BEL
+        "main/seq_logic/WAIT_DISP_OFF_3" BEL "main/seq_logic/WAIT_DISP_OFF_1"
+        BEL "main/seq_logic/STATE_3" BEL "main/seq_logic/STATE_2" BEL
+        "main/seq_logic/STATE_1" BEL "main/seq_logic/STATE_0" BEL
+        "main/seq_logic/WAIT_VAL_3" BEL "main/seq_logic/WAIT_VAL_2" BEL
+        "main/seq_logic/WAIT_VAL_1" BEL "main/seq_logic/WAIT_VAL_0" BEL
+        "main/seq_logic/LOG_DISP_OFF_3" BEL "main/seq_logic/LOG_DISP_OFF_2"
+        BEL "main/seq_logic/LOG_DISP_OFF_1" BEL
+        "main/seq_logic/LOG_DISP_OFF_0" BEL "main/seq_logic/LOG_SEQ_15" BEL
+        "main/seq_logic/LOG_SEQ_14" BEL "main/seq_logic/LOG_SEQ_13" BEL
+        "main/seq_logic/LOG_SEQ_12" BEL "main/seq_logic/LOG_SEQ_11" BEL
+        "main/seq_logic/LOG_SEQ_10" BEL "main/seq_logic/LOG_SEQ_9" BEL
+        "main/seq_logic/LOG_SEQ_8" BEL "main/seq_logic/LOG_SEQ_7" BEL
+        "main/seq_logic/LOG_SEQ_6" BEL "main/seq_logic/LOG_SEQ_5" BEL
+        "main/seq_logic/LOG_SEQ_4" BEL "main/seq_logic/LOG_SEQ_3" BEL
+        "main/seq_logic/LOG_SEQ_2" BEL "main/seq_logic/LOG_SEQ_1" BEL
+        "main/seq_logic/LOG_SEQ_0" BEL "main/DISP_7_MODULE/DIGIT_CNT_2" BEL
+        "main/DISP_7_MODULE/DIGIT_CNT_1" BEL "main/DISP_7_MODULE/DIGIT_CNT_0"
+        BEL "btnf_c/CNT_3" BEL "btnf_c/CNT_2" BEL "btnf_c/CNT_1" BEL
+        "btnf_c/CNT_0" BEL "btnf_c/BTN_I_SYNC_1" BEL "btnf_c/BTN_I_SYNC_0" BEL
+        "btnf_c/BTN_CEO" BEL "gced/CLK_DIV_H_6" BEL "gced/CLK_DIV_H_5" BEL
+        "gced/CLK_DIV_H_4" BEL "gced/CLK_DIV_H_3" BEL "gced/CLK_DIV_H_2" BEL
+        "gced/CLK_DIV_H_1" BEL "gced/CLK_DIV_L_9" BEL "gced/CLK_DIV_L_8" BEL
+        "gced/CLK_DIV_L_7" BEL "gced/CLK_DIV_L_6" BEL "gced/CLK_DIV_L_5" BEL
+        "gced/CLK_DIV_L_4" BEL "gced/CLK_DIV_L_3" BEL "gced/CLK_DIV_L_2" BEL
+        "gced/CLK_DIV_L_1" BEL "gced/CEO_DIV_H" BEL "btnf_c/BTN_O" BEL
+        "gced/CEO_DIV_L" BEL "gced/CLK_DIV_H_0" BEL "gced/CLK_DIV_L_0" BEL
+        "CLK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
