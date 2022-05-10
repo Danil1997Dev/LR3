@@ -1,0 +1,11 @@
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_7SEG_DECODER_V10.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic_L.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE_DISP.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_BTN_FLTR.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP.v"
+verilog work "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TB.v"
+verilog work K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/verilog/src/glbl.v

@@ -1,0 +1,103 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/intelFPGA/18.1/Lab_Verilog/LR3/pa.fromHdl.tcl
+# create_project -name LR3 -dir "D:/intelFPGA/18.1/Lab_Verilog/LR3/planAhead_run_2" -part xc7a100tcsg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf" [current_fileset -constrset]
+Adding file 'D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {M_7SEG_DECODER_V10.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3_Seq_Logic_L.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {M_Nexys4_DISP.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3_Seq_Logic.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3_GEN_CE_DISP.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3_GEN_CE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3_BTN_FLTR.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {LR3_TOP.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top LR3_TOP $srcset
+# add_files [list {Nexys4_Master.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {LR3_TOP_TEST.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-3
+Using Verific elaboration
+Parsing VHDL file "K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_7SEG_DECODER_V10.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic_L.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE_DISP.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_BTN_FLTR.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP.v" into library work
+Loading clock regions from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[3]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:1]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[2]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:2]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[1]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:3]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[0]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:4]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'BTN_CE' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:5]
+INFO: [Constraints 18-98] IO constraint IOSTANDARD with a setting of LVCMOS33 for net DISP_CE will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:6]
+INFO: [Constraints 18-98] IO constraint IOSTANDARD with a setting of LVCMOS33 for net RST will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:7]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[3]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:8]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[2]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:9]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[1]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:10]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DAT_I[0]' [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf:11]
+Finished Parsing UCF File [D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf]
+Parsing UCF File [D:/intelFPGA/18.1/Lab_Verilog/LR3/Nexys4_Master.ucf]
+Finished Parsing UCF File [D:/intelFPGA/18.1/Lab_Verilog/LR3/Nexys4_Master.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 9b009e6b
+open_rtl_design: Time (s): elapsed = 00:00:16 . Memory (MB): peak = 766.691 ; gain = 285.371
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin M1 [get_ports {AN[7]}]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports {AN[7]}]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports {AN[7]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri May 06 02:03:47 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,520 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> Reading design: LR3.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LR3.prj"
+
+---- Target Parameters
+Target Device                      : xc7a100tcsg324-3
+Output File Name                   : "LR3.ngc"
+
+---- Source Options
+Top Module Name                    : LR3
+
+---- Target Options
+LUT Combining                      : auto
+Add Generic Clock Buffer(BUFG)     : 32
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_7SEG_DECODER_V10.v" into library work
+Parsing module <M_7SEG_DECODER_V10>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic_L.v" into library work
+Parsing module <LR3_Seq_Logic_L>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" into library work
+Parsing module <M_Nexys4_DISP>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" into library work
+Parsing module <LR3_Seq_Logic>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE_DISP.v" into library work
+Parsing module <LR3_GEN_CE_DISP>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE.v" into library work
+Parsing module <LR3_GEN_CE>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_BTN_FLTR.v" into library work
+Parsing module <LR3_BTN_FLTR>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" into library work
+Parsing module <LR3>.
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP.v" into library work
+Parsing module <LR3_TOP>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" Line 35: Port DP is not connected to this instance
+
+Elaborating module <LR3>.
+
+Elaborating module <LR3_Seq_Logic>.
+WARNING:HDLCompiler:413 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" Line 43: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <LR3_Seq_Logic_L>.
+WARNING:HDLCompiler:413 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" Line 69: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" Line 71: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <M_Nexys4_DISP>.
+WARNING:HDLCompiler:413 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 51: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 58: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 59: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 64: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 65: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 70: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 71: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 76: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 77: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 82: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 83: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 88: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 89: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 94: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 95: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 100: Signal <DISP_OFF> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 101: Signal <HEX_IN> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <M_7SEG_DECODER_V10>.
+WARNING:HDLCompiler:1127 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" Line 38: Assignment to CAT_HEX ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" Line 66: Assignment to AN_HEX ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <LR3>.
+    Related source file is "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v".
+INFO:Xst:3210 - "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" line 35: Output port <DP> of the instance <DISP_7_MODULE> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <LR3> synthesized.
+
+Synthesizing Unit <LR3_Seq_Logic>.
+    Related source file is "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v".
+    Found 4-bit register for signal <LOG_DISP_OFF>.
+    Found 16-bit register for signal <LOG_SEQ>.
+    Found 4-bit register for signal <WAIT_DISP_OFF>.
+    Found 4-bit register for signal <STATE>.
+    Found 2-bit register for signal <CNT>.
+    Found 4-bit register for signal <WAIT_VAL>.
+    Found 16-bit register for signal <WAIT_SEQ>.
+    Found 4-bit subtractor for signal <STATE[3]_GND_2_o_sub_14_OUT> created at line 79.
+    Found 4-bit adder for signal <NEXT_STATE> created at line 43.
+    Found 2-bit adder for signal <CNT[1]_GND_2_o_add_11_OUT> created at line 71.
+    Found 4-bit comparator equal for signal <DAT_I[3]_VAL[3]_equal_4_o> created at line 62
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   6 Multiplexer(s).
+Unit <LR3_Seq_Logic> synthesized.
+
+Synthesizing Unit <LR3_Seq_Logic_L>.
+    Related source file is "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic_L.v".
+    Found 16x4-bit Read Only RAM for signal <Y>
+    Summary:
+	inferred   1 RAM(s).
+Unit <LR3_Seq_Logic_L> synthesized.
+
+Synthesizing Unit <M_Nexys4_DISP>.
+    Related source file is "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v".
+WARNING:Xst:647 - Input <DP_IN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <DP> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 3-bit register for signal <DIGIT_CNT>.
+    Found 3-bit subtractor for signal <GND_5_o_GND_5_o_sub_1_OUT<2:0>> created at line 51.
+    Found 8x8-bit Read Only RAM for signal <ANODE_DC>
+    Found 1-bit 8-to-1 multiplexer for signal <DEC_ENABLE> created at line 55.
+    Found 4-bit 8-to-1 multiplexer for signal <I_CODE> created at line 55.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <M_Nexys4_DISP> synthesized.
+
+Synthesizing Unit <M_7SEG_DECODER_V10>.
+    Related source file is "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_7SEG_DECODER_V10.v".
+    Summary:
+	inferred   7 Multiplexer(s).
+Unit <M_7SEG_DECODER_V10> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x4-bit single-port Read Only RAM                    : 2
+ 8x8-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 1
+ 3-bit subtractor                                      : 1
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 8
+ 16-bit register                                       : 2
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 4
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 15
+ 1-bit 2-to-1 multiplexer                              : 7
+ 1-bit 8-to-1 multiplexer                              : 1
+ 16-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 4
+ 4-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <LR3_Seq_Logic>.
+The following registers are absorbed into counter <CNT>: 1 register on signal <CNT>.
+Unit <LR3_Seq_Logic> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LR3_Seq_Logic_L>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Y> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 4-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <X>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Y>             |          |
+    -----------------------------------------------------------------------
+Unit <LR3_Seq_Logic_L> synthesized (advanced).
+
+Synthesizing (advanced) Unit <M_Nexys4_DISP>.
+The following registers are absorbed into counter <DIGIT_CNT>: 1 register on signal <DIGIT_CNT>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ANODE_DC> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <DIGIT_CNT>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <ANODE_DC>      |          |
+    -----------------------------------------------------------------------
+Unit <M_Nexys4_DISP> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x4-bit single-port distributed Read Only RAM        : 2
+ 8x8-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 3-bit down counter                                    : 1
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 14
+ 1-bit 2-to-1 multiplexer                              : 7
+ 1-bit 8-to-1 multiplexer                              : 1
+ 16-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 4
+ 4-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <WAIT_DISP_OFF_0> has a constant value of 0 in block <LR3_Seq_Logic>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <LR3> ...
+
+Optimizing unit <LR3_Seq_Logic> ...
+
+Optimizing unit <M_Nexys4_DISP> ...
+WARNING:Xst:1293 - FF/Latch <seq_logic/WAIT_VAL_2> has a constant value of 0 in block <LR3>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <seq_logic/STATE_0> in Unit <LR3> is equivalent to the following FF/Latch, which will be removed : <seq_logic/CNT_0> 
+INFO:Xst:2261 - The FF/Latch <seq_logic/STATE_1> in Unit <LR3> is equivalent to the following FF/Latch, which will be removed : <seq_logic/CNT_1> 
+INFO:Xst:3203 - The FF/Latch <seq_logic/STATE_1> in Unit <LR3> is the opposite to the following FF/Latch, which will be removed : <seq_logic/WAIT_DISP_OFF_2> 
+INFO:Xst:3203 - The FF/Latch <seq_logic/STATE_3> in Unit <LR3> is the opposite to the following FF/Latch, which will be removed : <seq_logic/WAIT_VAL_1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block LR3, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 47
+ Flip-Flops                                            : 47
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LR3.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 65
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 14
+#      LUT3                        : 3
+#      LUT4                        : 9
+#      LUT5                        : 10
+#      LUT6                        : 21
+#      MUXF7                       : 5
+#      VCC                         : 1
+# FlipFlops/Latches                : 47
+#      FDCE                        : 37
+#      FDPE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 22
+#      IBUF                        : 7
+#      OBUF                        : 15
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              47  out of  126800     0%  
+ Number of Slice LUTs:                   58  out of  63400     0%  
+    Number used as Logic:                58  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     70
+   Number with an unused Flip Flop:      23  out of     70    32%  
+   Number with an unused LUT:            12  out of     70    17%  
+   Number of fully used LUT-FF pairs:    35  out of     70    50%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of    210    10%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 47    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.032ns (Maximum Frequency: 492.053MHz)
+   Minimum input arrival time before clock: 1.959ns
+   Maximum output required time after clock: 2.817ns
+   Maximum combinational path delay: 2.269ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 2.032ns (frequency: 492.053MHz)
+  Total number of paths / destination ports: 306 / 44
+-------------------------------------------------------------------------
+Delay:               2.032ns (Levels of Logic = 3)
+  Source:            seq_logic/STATE_3 (FF)
+  Destination:       seq_logic/WAIT_SEQ_15 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: seq_logic/STATE_3 to seq_logic/WAIT_SEQ_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            11   0.361   0.426  seq_logic/STATE_3 (seq_logic/STATE_3)
+     LUT6:I4->O            1   0.097   0.556  seq_logic/DAT_I[3]_VAL[3]_equal_4_o_inv_inv4_SW2 (N4)
+     LUT6:I2->O           22   0.097   0.391  seq_logic/DAT_I[3]_VAL[3]_equal_4_o_inv_inv4 (seq_logic/DAT_I[3]_VAL[3]_equal_4_o_inv_inv)
+     LUT4:I3->O            1   0.097   0.000  seq_logic/Mmux_PWR_2_o_WAIT_DISP_OFF[2]_mux_16_OUT11 (seq_logic/PWR_2_o_WAIT_DISP_OFF[2]_mux_16_OUT<1>)
+     FDPE:D                    0.008          seq_logic/WAIT_DISP_OFF_1
+    ----------------------------------------
+    Total                      2.032ns (0.660ns logic, 1.372ns route)
+                                       (32.5% logic, 67.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 466 / 122
+-------------------------------------------------------------------------
+Offset:              1.959ns (Levels of Logic = 4)
+  Source:            DAT_I<2> (PAD)
+  Destination:       seq_logic/WAIT_SEQ_15 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: DAT_I<2> to seq_logic/WAIT_SEQ_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.712  DAT_I_2_IBUF (DAT_I_2_IBUF)
+     LUT6:I0->O            1   0.097   0.556  seq_logic/DAT_I[3]_VAL[3]_equal_4_o_inv_inv4_SW2 (N4)
+     LUT6:I2->O           22   0.097   0.391  seq_logic/DAT_I[3]_VAL[3]_equal_4_o_inv_inv4 (seq_logic/DAT_I[3]_VAL[3]_equal_4_o_inv_inv)
+     LUT4:I3->O            1   0.097   0.000  seq_logic/Mmux_PWR_2_o_WAIT_DISP_OFF[2]_mux_16_OUT11 (seq_logic/PWR_2_o_WAIT_DISP_OFF[2]_mux_16_OUT<1>)
+     FDPE:D                    0.008          seq_logic/WAIT_DISP_OFF_1
+    ----------------------------------------
+    Total                      1.959ns (0.300ns logic, 1.659ns route)
+                                       (15.3% logic, 84.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 479 / 15
+-------------------------------------------------------------------------
+Offset:              2.817ns (Levels of Logic = 5)
+  Source:            DISP_7_MODULE/DIGIT_CNT_1 (FF)
+  Destination:       CAT<5> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: DISP_7_MODULE/DIGIT_CNT_1 to CAT<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            21   0.361   0.602  DISP_7_MODULE/DIGIT_CNT_1 (DISP_7_MODULE/DIGIT_CNT_1)
+     LUT3:I0->O            1   0.097   0.295  DISP_7_MODULE/Mmux_DEC_ENABLE_4_SW0 (N16)
+     LUT6:I5->O            1   0.097   0.000  DISP_7_MODULE/Mmux_DEC_ENABLE_4 (DISP_7_MODULE/Mmux_DEC_ENABLE_4)
+     MUXF7:I0->O           7   0.277   0.711  DISP_7_MODULE/Mmux_DEC_ENABLE_2_f7 (DISP_7_MODULE/DEC_ENABLE)
+     LUT5:I0->O            1   0.097   0.279  DISP_7_MODULE/CF11 (CAT_5_OBUF)
+     OBUF:I->O                 0.000          CAT_5_OBUF (CAT<5>)
+    ----------------------------------------
+    Total                      2.817ns (0.929ns logic, 1.888ns route)
+                                       (33.0% logic, 67.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 22 / 15
+-------------------------------------------------------------------------
+Delay:               2.269ns (Levels of Logic = 5)
+  Source:            RST (PAD)
+  Destination:       CAT<5> (PAD)
+
+  Data Path: RST to CAT<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            57   0.001   0.804  RST_IBUF (RST_IBUF)
+     LUT6:I0->O            1   0.097   0.000  DISP_7_MODULE/Mmux_DEC_ENABLE_3 (DISP_7_MODULE/Mmux_DEC_ENABLE_3)
+     MUXF7:I1->O           7   0.279   0.711  DISP_7_MODULE/Mmux_DEC_ENABLE_2_f7 (DISP_7_MODULE/DEC_ENABLE)
+     LUT5:I0->O            1   0.097   0.279  DISP_7_MODULE/CF11 (CAT_5_OBUF)
+     OBUF:I->O                 0.000          CAT_5_OBUF (CAT<5>)
+    ----------------------------------------
+    Total                      2.269ns (0.474ns logic, 1.795ns route)
+                                       (20.9% logic, 79.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    2.032|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.24 secs
+ 
+--> 
+
+Total memory usage is 4689264 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

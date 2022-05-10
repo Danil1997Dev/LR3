@@ -1,0 +1,52 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 05 22:24:04 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "AN[3]" LOCATE = SITE "N5" LEVEL 1;
+COMP "AN[4]" LOCATE = SITE "N2" LEVEL 1;
+COMP "AN[5]" LOCATE = SITE "N4" LEVEL 1;
+COMP "AN[6]" LOCATE = SITE "L1" LEVEL 1;
+COMP "AN[7]" LOCATE = SITE "M1" LEVEL 1;
+COMP "DAT_I[0]" LOCATE = SITE "U9" LEVEL 1;
+COMP "DAT_I[1]" LOCATE = SITE "U8" LEVEL 1;
+COMP "DAT_I[2]" LOCATE = SITE "R7" LEVEL 1;
+COMP "DAT_I[3]" LOCATE = SITE "R6" LEVEL 1;
+COMP "CAT[0]" LOCATE = SITE "L3" LEVEL 1;
+COMP "CAT[1]" LOCATE = SITE "N1" LEVEL 1;
+COMP "CAT[2]" LOCATE = SITE "L5" LEVEL 1;
+COMP "CAT[3]" LOCATE = SITE "L4" LEVEL 1;
+COMP "CAT[4]" LOCATE = SITE "K3" LEVEL 1;
+COMP "CAT[5]" LOCATE = SITE "M2" LEVEL 1;
+COMP "CAT[6]" LOCATE = SITE "L6" LEVEL 1;
+COMP "CLK" LOCATE = SITE "E3" LEVEL 1;
+COMP "AN[0]" LOCATE = SITE "N6" LEVEL 1;
+COMP "AN[1]" LOCATE = SITE "M6" LEVEL 1;
+COMP "AN[2]" LOCATE = SITE "M3" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "seq_logic/WAIT_SEQ_15" BEL "seq_logic/WAIT_SEQ_14"
+        BEL "seq_logic/WAIT_SEQ_13" BEL "seq_logic/WAIT_SEQ_12" BEL
+        "seq_logic/WAIT_SEQ_11" BEL "seq_logic/WAIT_SEQ_10" BEL
+        "seq_logic/WAIT_SEQ_9" BEL "seq_logic/WAIT_SEQ_8" BEL
+        "seq_logic/WAIT_SEQ_7" BEL "seq_logic/WAIT_SEQ_6" BEL
+        "seq_logic/WAIT_SEQ_5" BEL "seq_logic/WAIT_SEQ_4" BEL
+        "seq_logic/WAIT_SEQ_3" BEL "seq_logic/WAIT_SEQ_2" BEL
+        "seq_logic/WAIT_SEQ_1" BEL "seq_logic/WAIT_SEQ_0" BEL
+        "seq_logic/WAIT_DISP_OFF_3" BEL "seq_logic/WAIT_DISP_OFF_1" BEL
+        "seq_logic/STATE_3" BEL "seq_logic/STATE_2" BEL "seq_logic/STATE_1"
+        BEL "seq_logic/STATE_0" BEL "seq_logic/WAIT_VAL_3" BEL
+        "seq_logic/WAIT_VAL_0" BEL "seq_logic/LOG_DISP_OFF_3" BEL
+        "seq_logic/LOG_DISP_OFF_2" BEL "seq_logic/LOG_DISP_OFF_1" BEL
+        "seq_logic/LOG_DISP_OFF_0" BEL "seq_logic/LOG_SEQ_15" BEL
+        "seq_logic/LOG_SEQ_14" BEL "seq_logic/LOG_SEQ_13" BEL
+        "seq_logic/LOG_SEQ_12" BEL "seq_logic/LOG_SEQ_11" BEL
+        "seq_logic/LOG_SEQ_10" BEL "seq_logic/LOG_SEQ_9" BEL
+        "seq_logic/LOG_SEQ_8" BEL "seq_logic/LOG_SEQ_7" BEL
+        "seq_logic/LOG_SEQ_6" BEL "seq_logic/LOG_SEQ_5" BEL
+        "seq_logic/LOG_SEQ_4" BEL "seq_logic/LOG_SEQ_3" BEL
+        "seq_logic/LOG_SEQ_2" BEL "seq_logic/LOG_SEQ_1" BEL
+        "seq_logic/LOG_SEQ_0" BEL "DISP_7_MODULE/DIGIT_CNT_2" BEL
+        "DISP_7_MODULE/DIGIT_CNT_1" BEL "DISP_7_MODULE/DIGIT_CNT_0" BEL
+        "CLK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

@@ -23,9 +23,7 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LR3_Seq_Logic_TB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LR3_TB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LR3_TB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LR3_TB_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LR3_TOP.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LR3_TOP.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LR3_TOP.lso"/>
@@ -46,9 +44,11 @@
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="LR3_TOP.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LR3_TOP.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LR3_TOP_TEST_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LR3_TOP_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="LR3_TOP_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="LR3_TOP_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LR3_TOP_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LR3_TOP_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LR3_TOP_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LR3_TOP_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LR3_TOP_map.ncd" xil_pn:subbranch="Map"/>
@@ -63,6 +63,7 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LR3_TOP_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LR3_TOP_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LR3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LR3_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -73,6 +74,9 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -100,11 +104,11 @@
       <outfile xil_pn:name="M_7SEG_DECODER_V10.v"/>
       <outfile xil_pn:name="M_Nexys4_DISP.v"/>
     </transform>
-    <transform xil_pn:end_ts="1649926076" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1719866322546627203" xil_pn:start_ts="1649926076">
+    <transform xil_pn:end_ts="1651772727" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8767468571790261766" xil_pn:start_ts="1651772727">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1649926076" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5683208952557738779" xil_pn:start_ts="1649926076">
+    <transform xil_pn:end_ts="1651772727" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="9157899877775217432" xil_pn:start_ts="1651772727">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -128,27 +132,27 @@
       <outfile xil_pn:name="M_7SEG_DECODER_V10.v"/>
       <outfile xil_pn:name="M_Nexys4_DISP.v"/>
     </transform>
-    <transform xil_pn:end_ts="1651046483" xil_pn:in_ck="-5107467745173776179" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4499240190574324343" xil_pn:start_ts="1651046478">
+    <transform xil_pn:end_ts="1651772730" xil_pn:in_ck="-5107467745173776179" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3433580467030329859" xil_pn:start_ts="1651772727">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="LR3_TB_beh.prj"/>
-      <outfile xil_pn:name="LR3_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="LR3_TOP_beh.prj"/>
+      <outfile xil_pn:name="LR3_TOP_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1651046483" xil_pn:in_ck="-8219855085916628894" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6476641716331879540" xil_pn:start_ts="1651046483">
+    <transform xil_pn:end_ts="1651772730" xil_pn:in_ck="-8219855085916628894" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3765750917441921018" xil_pn:start_ts="1651772730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="LR3_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="LR3_TOP_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -180,14 +184,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1637262569" xil_pn:in_ck="206724214376402046" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="750030182388610525" xil_pn:start_ts="1637262558">
+    <transform xil_pn:end_ts="1651776093" xil_pn:in_ck="206724214376402046" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="750030182388610525" xil_pn:start_ts="1651776076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="LR3_TOP.lso"/>
       <outfile xil_pn:name="LR3_TOP.ngc"/>
       <outfile xil_pn:name="LR3_TOP.ngr"/>
@@ -195,23 +195,25 @@
       <outfile xil_pn:name="LR3_TOP.stx"/>
       <outfile xil_pn:name="LR3_TOP.syr"/>
       <outfile xil_pn:name="LR3_TOP.xst"/>
+      <outfile xil_pn:name="LR3_TOP_beh.prj"/>
       <outfile xil_pn:name="LR3_TOP_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1637262452" xil_pn:in_ck="43575121159833474" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981231369791397" xil_pn:start_ts="1637262452">
+    <transform xil_pn:end_ts="1651772550" xil_pn:in_ck="-2233057044906390768" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981231369791397" xil_pn:start_ts="1651772550">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1637262576" xil_pn:in_ck="-7447285992900779637" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2215375357535495503" xil_pn:start_ts="1637262569">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1651772559" xil_pn:in_ck="-5222989155597150439" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2215375357535495503" xil_pn:start_ts="1651772550">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LR3_TOP.bld"/>
       <outfile xil_pn:name="LR3_TOP.ngd"/>
       <outfile xil_pn:name="LR3_TOP_ngdbuild.xrpt"/>
@@ -224,6 +226,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LR3_TOP.pcf"/>
       <outfile xil_pn:name="LR3_TOP_map.map"/>
       <outfile xil_pn:name="LR3_TOP_map.mrp"/>
@@ -240,6 +243,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LR3_TOP.ncd"/>
       <outfile xil_pn:name="LR3_TOP.pad"/>
       <outfile xil_pn:name="LR3_TOP.par"/>
@@ -257,6 +261,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LR3_TOP.twr"/>
       <outfile xil_pn:name="LR3_TOP.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

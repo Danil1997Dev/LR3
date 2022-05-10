@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn LR3.prj
+-top LR3
+-p xc7a100tcsg324-3
+-ofn LR3.ngc
+-opt_mode speed
+-opt_level 1
+-lc auto
+-bufg 32

@@ -22,7 +22,10 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module LR3_TOP_TEST;
+module LR3_TOP_TEST
+#(
+parameter PERIOD = 16*1500
+)();
 
 	// Inputs
 	reg CLK;
@@ -58,49 +61,49 @@ module LR3_TOP_TEST;
 		
 		SW = 'h2;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 		
 		SW = 'h3;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 
 		///
 
 		SW = 'h9;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 		
 		///
 		
 		SW = 'h2;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 		
 		SW = 'h3;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 		
 		SW = 'h8;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 		
 		SW = 'h0;
 		BTN_C = 1;
-		#15;
+		#PERIOD;
 		BTN_C = 0;
-		#5;
+		#PERIOD;
 
 	end
 	

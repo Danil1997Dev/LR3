@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-04-27T11:18:24</DateModified>
+  <DateModified>2022-05-06T02:40:19</DateModified>
   <ModuleName>LR3_TOP</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Geralt/Desktop/LR3/iseconfig/LR3_TOP.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Geralt/Desktop/LR3\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/intelFPGA/18.1/Lab_Verilog/LR3/iseconfig/LR3_TOP.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/intelFPGA/18.1/Lab_Verilog/LR3\</ImplementationReportsDirectory>
   <DateInitialized>2021-11-19T16:20:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

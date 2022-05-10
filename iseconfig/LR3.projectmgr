@@ -12,13 +12,13 @@
          <ClosedNode>/LR3_Seq_Logic D:|study|LR3|LR3_Seq_Logic.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>LR3_TOP (C:/Users/Geralt/Desktop/LR3/LR3_TOP.v)</SelectedItem>
+         <SelectedItem>LR3_TOP_TEST.ucf (D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c8000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>LR3_TOP (C:/Users/Geralt/Desktop/LR3/LR3_TOP.v)</CurrentItem>
+      <CurrentItem>LR3_TOP_TEST.ucf (D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.ucf)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -26,13 +26,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -43,7 +43,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000017e000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009c00000001000000000000002100000001000000000000005d0000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009c00000001000000000000002100000001000000000000005d0000000100000000000001c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>LR3_TOP.v</CurrentItem>
    </ItemView>
@@ -55,7 +55,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000147000000010001000100000000000000000000000064ffffffff000000810000000000000001000001470000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -68,13 +68,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Synthesize - XST</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000136000000010000000100000000000000000000000064ffffffff000000810000000000000001000001360000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Synthesize - XST</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -83,9 +83,11 @@
          <ClosedNode>/LR3_33_TB D:|study|LR3|LR3_TB.v/uut - LR3_33</ClosedNode>
          <ClosedNode>/LR3_33_TOP D:|study|LR3|LR3_TOP.v</ClosedNode>
          <ClosedNode>/LR3_Seq_Logic_TB C:|Users|Geralt|Desktop|LR3|LR3_Seq_Logic_TB.v</ClosedNode>
+         <ClosedNode>/LR3_Seq_Logic_TB D:|intelFPGA|18.1|Lab_Verilog|LR3|LR3_Seq_Logic_TB.v</ClosedNode>
          <ClosedNode>/LR3_TB C:|Users|Geralt|Desktop|LR3|LR3_TB.v</ClosedNode>
          <ClosedNode>/LR3_TB C:|Users|Geralt|Desktop|LR3|LR3_TB.v/uut - LR3/DISP_7_MODULE - M_Nexys4_DISP</ClosedNode>
          <ClosedNode>/LR3_TB C:|Users|Geralt|Desktop|LR3|LR3_TB.v/uut - LR3/seq_logic - LR3_Seq_Logic</ClosedNode>
+         <ClosedNode>/LR3_TB D:|intelFPGA|18.1|Lab_Verilog|LR3|LR3_TB.v</ClosedNode>
          <ClosedNode>/LR3_TB D:|study|LR3|LR3_TB.v/uut - LR3/seq_logic - LR3_Seq_Logic</ClosedNode>
          <ClosedNode>/LR3_TOP C:|Users|Geralt|Desktop|LR3|LR3_TOP.v/main - LR3</ClosedNode>
          <ClosedNode>/LR3_TOP C:|Users|Geralt|Desktop|LR3|LR3_TOP.v/main - LR3/DISP_7_MODULE - M_Nexys4_DISP</ClosedNode>
@@ -95,13 +97,13 @@
          <ClosedNode>/LR3_TOP_TEST C:|Users|Geralt|Desktop|LR3|LR3_TOP_TEST.v/uut - LR3_TOP/main - LR3/seq_logic - LR3_Seq_Logic</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>DISP_7_MODULE - M_Nexys4_DISP (C:/Users/Geralt/Desktop/LR3/M_Nexys4_DISP.v)</SelectedItem>
+         <SelectedItem>LR3_TB (D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TB.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000019d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000019d0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001dc000000020000000000000000000000000200000064ffffffff000000810000000300000002000001dc0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>DISP_7_MODULE - M_Nexys4_DISP (C:/Users/Geralt/Desktop/LR3/M_Nexys4_DISP.v)</CurrentItem>
+      <CurrentItem>LR3_TB (D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TB.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -110,13 +112,13 @@
          <ClosedNode>ISim Simulator</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000147000000010000000100000000000000000000000064ffffffff000000810000000000000001000001470000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -127,7 +129,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001cb000000010000000100000000000000000000000064ffffffff000000810000000000000001000001cb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
@@ -137,14 +139,14 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011f0000009f01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
 </Project>

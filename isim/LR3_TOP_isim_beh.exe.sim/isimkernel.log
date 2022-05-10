@@ -1,0 +1,28 @@
+Command line:
+   LR3_TOP_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55693
+
+Fri May 06 01:45:33 2022
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5164.68 Meg
+
+ Total Signals          : 75
+ Total Nets             : 117
+ Total Signal Drivers   : 34
+ Total Blocks           : 11
+ Total Primitive Blocks : 7
+ Total Processes        : 49
+ Total Traceable Variables  : 51
+ Total Scalar Nets and Variables : 335
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5164.68 Meg
+
+Fri May 06 01:45:59 2022
+

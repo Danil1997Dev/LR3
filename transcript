@@ -1,0 +1,792 @@
+# Reading K:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:53:45 on May 09,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 12:53:45 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 12:53:45 on May 09,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TB
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:56:40 on May 09,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 12:56:41 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:56:45 on May 09,2022, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TB 
+# Start time: 12:56:45 on May 09,2022
+# Loading work.LR3_TB
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TB/uut/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Error: (vish-4014) No objects found matching '/LR3_TOP_TEST/uut/btnf_c/*'.
+# Error in macro ./sim.do line 17
+# (vish-4014) No objects found matching '/LR3_TOP_TEST/uut/btnf_c/*'.
+#     while executing
+# "add wave -position insertpoint sim:/LR3_TOP_TEST/uut/btnf_c/*"
+run -all
+# Break key hit
+# Simulation stop requested.
+run -all
+# Break key hit
+# Break in Module LR3_TB at LR3_TB.v line 50
+do sim.do
+# LR3_Seq_Logic_TB
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:37 on May 09,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 13:04:37 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:04:41 on May 09,2022, Elapsed time: 0:07:56
+# Errors: 3, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_Seq_Logic_TB 
+# Start time: 13:04:41 on May 09,2022
+# Loading work.LR3_Seq_Logic_TB
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Error: (vish-4014) No objects found matching '/LR3_TOP_TEST/uut/btnf_c/*'.
+# Error in macro ./sim.do line 17
+# (vish-4014) No objects found matching '/LR3_TOP_TEST/uut/btnf_c/*'.
+#     while executing
+# "add wave -position insertpoint sim:/LR3_TOP_TEST/uut/btnf_c/*"
+run -all
+# Break key hit
+# Break in Module LR3_Seq_Logic_TB at LR3_Seq_Logic_TB.v line 223
+do sim.do
+# LR3_TB
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:14 on May 09,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 13:26:14 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:26:19 on May 09,2022, Elapsed time: 0:21:38
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc" work.LR3_TB 
+# Start time: 13:26:19 on May 09,2022
+# Loading work.LR3_TB
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TB/uut/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Error: (vish-4014) No objects found matching '/LR3_TOP_TEST/uut/btnf_c/*'.
+# Error in macro ./sim.do line 17
+# (vish-4014) No objects found matching '/LR3_TOP_TEST/uut/btnf_c/*'.
+#     while executing
+# "add wave -position insertpoint sim:/LR3_TOP_TEST/uut/btnf_c/*"
+run -all
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:57 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# ** Error: (vlog-13069) LR3_GEN_CE_DISP.v(28): near ")": syntax error, unexpected ')'.
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# End time: 14:13:58 on May 10,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./sim.do line 5
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "*.v"    "
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:14:16 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 14:14:16 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:14:21 on May 10,2022, Elapsed time: 24:48:02
+# Errors: 7, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 14:14:21 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module LR3_TOP_TEST at LR3_TOP_TEST.v line 108
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:16:30 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 14:16:30 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:16:34 on May 10,2022, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 14:16:34 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:19:07 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 14:19:08 on May 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:19:11 on May 10,2022, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 14:19:11 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:15 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 14:26:15 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:26:19 on May 10,2022, Elapsed time: 0:07:08
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 14:26:19 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:03:34 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 19:03:34 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:03:55 on May 10,2022, Elapsed time: 4:37:36
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 19:03:55 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module LR3_GEN_CE at LR3_GEN_CE.v line 36
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:03 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 19:06:03 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:06:15 on May 10,2022, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 19:06:15 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:33 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 19:10:33 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:10:43 on May 10,2022, Elapsed time: 0:04:28
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 19:10:43 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:53:11 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 20:53:11 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:53:27 on May 10,2022, Elapsed time: 1:42:44
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 20:53:27 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+#  Trace back: invalid command name "SrcCommon::LoadDBSDialog"
+#     while executing
+# "SrcCommon::LoadDBSDialog"
+#     ("after" script)
+#    <2:K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name "SrcCommon::LoadDBSDialog"}
+#    <1:eval:1: ::tk::dialog::error::bgerror {invalid command name "SrcCommon::LoadDBSDialog"}
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+# WARNING: No extended dataflow license exists
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:17 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 21:04:18 on May 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:04:31 on May 10,2022, Elapsed time: 0:11:04
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 21:04:31 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module LR3_TOP_TEST at LR3_TOP_TEST.v line 111
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:14 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 21:26:14 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:26:30 on May 10,2022, Elapsed time: 0:21:59
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 21:26:30 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module LR3_TOP_TEST at LR3_TOP_TEST.v line 111
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:37 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 22:12:37 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:12:43 on May 10,2022, Elapsed time: 0:46:13
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 22:12:43 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Error (suppressible): (vsim-3584) LR3_TOP.v(42): Module parameter 'CLK_REFRESH' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut File: LR3_TOP.v
+# ** Error (suppressible): (vsim-3584) LR3_TOP.v(44): Module parameter 'CLK_CE' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut File: LR3_TOP.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 7
+run -all
+# No Design Loaded!
+do sim.do
+# LR3_TOP_TEST
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:13:43 on May 10,2022
+# vlog -reportprogress 300 LR3.v LR3_BTN_FLTR.v LR3_GEN_CE.v LR3_GEN_CE_DISP.v LR3_Seq_Logic.v LR3_Seq_Logic_L.v LR3_Seq_Logic_TB.v LR3_TB.v LR3_TOP.v LR3_TOP_TEST.v M_7SEG_DECODER_V10.v M_Nexys4_DISP.v 
+# -- Compiling module LR3
+# -- Compiling module LR3_BTN_FLTR
+# -- Compiling module LR3_GEN_CE
+# -- Compiling module LR3_GEN_CE_DISP
+# -- Compiling module LR3_Seq_Logic
+# -- Compiling module LR3_Seq_Logic_L
+# -- Compiling module LR3_Seq_Logic_TB
+# -- Compiling module LR3_TB
+# -- Compiling module LR3_TOP
+# -- Compiling module LR3_TOP_TEST
+# -- Compiling module M_7SEG_DECODER_V10
+# -- Compiling module M_Nexys4_DISP
+# 
+# Top level modules:
+# 	LR3_Seq_Logic_TB
+# 	LR3_TB
+# 	LR3_TOP_TEST
+# End time: 22:13:43 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.LR3_TOP_TEST 
+# Start time: 22:12:43 on May 10,2022
+# Loading work.LR3_TOP_TEST
+# Loading work.LR3_TOP
+# Loading work.LR3_GEN_CE
+# Loading work.LR3_BTN_FLTR
+# Loading work.LR3_GEN_CE_DISP
+# Loading work.LR3
+# Loading work.LR3_Seq_Logic
+# Loading work.LR3_Seq_Logic_L
+# Loading work.M_Nexys4_DISP
+# Loading work.M_7SEG_DECODER_V10
+# ** Warning: (vsim-3017) LR3.v(35): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /LR3_TOP_TEST/uut/main/DISP_7_MODULE File: M_Nexys4_DISP.v
+# ** Warning: (vsim-3722) LR3.v(35): [TFMPC] - Missing connection for port 'DP'.
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+# End time: 22:17:21 on May 10,2022, Elapsed time: 0:04:38
+# Errors: 2, Warnings: 3

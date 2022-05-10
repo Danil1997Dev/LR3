@@ -1,0 +1,6 @@
+verilog isim_temp "M_7SEG_DECODER_V10.v"
+verilog isim_temp "LR3_Seq_Logic_L.v"
+verilog isim_temp "M_Nexys4_DISP.v"
+verilog isim_temp "LR3_Seq_Logic.v"
+verilog isim_temp "LR3.v"
+verilog isim_temp "K:/XilinxFPGA/14.7/ISE_DS/ISE//verilog/src/glbl.v"

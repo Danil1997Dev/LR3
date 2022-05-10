@@ -1,0 +1,1 @@
+-intstyle "pa" -incremental --nodebug -L "work" -L "unisims_ver" -L "unimacro_ver" -L "xilinxcorelib_ver" -L "secureip" -o "LR3_TB.exe" --prj "D:/intelFPGA/18.1/Lab_Verilog/LR3/project_1/project_1.sim/sim_1/behav/LR3_TB.prj" -top "work.LR3_TB" -top "work.glbl" 

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" Line 35: Port <arg fmt="%s" index="1">DP</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" Line 43: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" Line 69: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" Line 71: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 51: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 58: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 59: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 64: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 65: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 70: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 71: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 76: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 77: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 82: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 83: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 88: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 89: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 94: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 95: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 100: Signal &lt;<arg fmt="%s" index="1">DISP_OFF</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" Line 101: Signal &lt;<arg fmt="%s" index="1">HEX_IN</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" Line 38: Assignment to <arg fmt="%s" index="1">CAT_HEX</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" Line 66: Assignment to <arg fmt="%s" index="1">AN_HEX</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v</arg>&quot; line <arg fmt="%s" index="2">35</arg>: Output port &lt;<arg fmt="%s" index="3">DP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DISP_7_MODULE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">DP_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">DP</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Y</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_ANODE_DC</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">WAIT_DISP_OFF_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LR3_Seq_Logic</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">seq_logic/WAIT_VAL_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LR3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">seq_logic/STATE_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LR3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seq_logic/CNT_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">seq_logic/STATE_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LR3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seq_logic/CNT_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">seq_logic/STATE_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LR3</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seq_logic/WAIT_DISP_OFF_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">seq_logic/STATE_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LR3</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seq_logic/WAIT_VAL_1&gt; </arg>
+</msg>
+
+</messages>

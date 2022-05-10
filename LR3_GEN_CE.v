@@ -18,12 +18,44 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module LR3_GEN_CE(
+module LR3_GEN_CE
+#(parameter
+	CLK_REF = 50_000_000,
+	CLK_CE = 1_000_000, 
+	RELATE_CLK = CLK_REF/CLK_CE,
+	WIDTH_C_D = $clog2(RELATE_CLK)
+    )
+(
 	input CLK,
 	input RST,
 	output reg CEO
     );
-	 
+ 
+
+reg [WIDTH_C_D-1:0] CNT_DIV = 0;
+always @ (posedge CLK or posedge RST)
+	if(RST)
+		begin
+			CNT_DIV <= 0;
+		end
+	else
+		begin
+			if(CNT_DIV > RELATE_CLK) // CLK/DIGITAL
+				begin
+					CNT_DIV <= 0;
+					CEO <= 1'b1;
+				end
+			else
+				begin
+					CNT_DIV <= CNT_DIV + 1;
+					CEO <= 1'b0;
+				end
+		end
+
+
+
+
+/*	 
 	reg [16:0] CNT;
 	
 	always @(posedge CLK, posedge RST)
@@ -43,5 +75,5 @@ module LR3_GEN_CE(
 					CNT <= CNT + 1;
 					CEO <= 1'b0;
 				end
-				
+	*/			
 endmodule

@@ -1,0 +1,18 @@
+Running: K:\XilinxFPGA\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle pa -incremental --nodebug -L work -L unisims_ver -L unimacro_ver -L xilinxcorelib_ver -L secureip -o LR3_TB.exe --prj D:/intelFPGA/18.1/Lab_Verilog/LR3/project_1/project_1.sim/sim_1/behav/LR3_TB.prj -top work.LR3_TB -top work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_7SEG_DECODER_V10.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic_L.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/M_Nexys4_DISP.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE_DISP.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_GEN_CE.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_BTN_FLTR.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_Seq_Logic_TB.v" into library work
+Analyzing Verilog file "D:/intelFPGA/18.1/Lab_Verilog/LR3/LR3_TOP_TEST.v" into library work
+Analyzing Verilog file "K:/XilinxFPGA/14.7/ISE_DS/PlanAhead/data/verilog/src/glbl.v" into library work
+ERROR:Simulator:702 - Can not find design unit work.LR3_TB in library work located at isim/work 
